@@ -27,7 +27,7 @@ export const FullPost = () => {
       <Post
         id={data._id}
         title={data.title}
-        imageUrl={`http://localhost:4444${data.imageUrl}`}
+        imageUrl={`https://lagzya.top:4444${data.imageUrl}`}
         user={{
           avatarUrl: data.avatarUrl,
           fullName: data.user.fullName,
